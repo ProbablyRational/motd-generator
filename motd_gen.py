@@ -66,13 +66,28 @@ LOWER_HALF_BLOCK = unichr(0x2584)
 
 # Logo definition
 LOGO = (
-    " %s ____    ____ %s                  %s\n"
-    " %s|  _ \  / ___\%s ____  ____ _____ %s\n"
-    " %s| | \ \/_/_ _ %s|  _ \| ___|_   _\%s\n"
-    " %s| |_/ /____/ /%s| | | | ___| | |  %s\n"
-    " %s|____/ \____/ %s|_| |_|____| |_|  %s\n"
+        "%s                   ..\n"
+        "             `-/oyddsso+:.`\n"
+        "          `+ydddhhhhsyhhssso/\n"
+        "         -yhhhdhhhhhhhhhssyhyo.\n"
+        "   .:--.+ddhhhhhhhhhhhhhyhhhyss/..-.`\n"
+        "  ...-::oddhhhhssyyhhhddhhhhysso//-..`\n"
+        "  `....-/dhyss+//////////shhhss+:....`\n"
+        "   .....-hhy+:------------:shhs:.....\n"
+        "   `..../hhs---:/:----:/:--:dhy:...`\n"
+        "      `odysy/---:::--:::---ohhhs/`\n"
+        "       .yhhhyo:----------/yhyyy+`\n"
+        "         /hhyy+----------shhhs:\n"
+        "          `ohy----::::---:sy+`\n"
+        "            `------:------.`\n"
+        "              --::::::::--\n"
+        "               .-:::-:--.\n"
+        "                 .----.\n"
+        "\n"
+        "%s         Probably Rational Ltd.%s\n"
 )
-LOGO_COLORS = (GREEN1, BLUE1, RESET) * 5
+
+LOGO_COLORS = (BLUE1, PURPLE0, RESET)
 
 # Regex patterns
 REGEX_CTIME = (
