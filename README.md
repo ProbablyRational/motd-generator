@@ -39,7 +39,7 @@ Feel free to modify the scripts as you see fit!
 su
 
 # Download the archive
-curl -L https://github.com/dsnet/motd-generator/archive/master.tar.gz | tar -zxv
+curl -L https://github.com/ProbablyRational/motd-generator/archive/master.tar.gz | tar -zxv
 
 # Move local copy
 SRC_ROOT=/usr/local/motd_gen
